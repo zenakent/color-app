@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Palette.css';
 
 import ColorBox from './ColorBox';
+
 class Pallete extends Component {
 	render() {
 		const colorBoxes = this.props.palette.colors.map((color, idx) => (
